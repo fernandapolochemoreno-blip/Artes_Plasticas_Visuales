@@ -1,62 +1,58 @@
-/* Reiniciar el navegador para evitar diferencias de estetilos*/
-*{
-   box-sizing: border-box;  
+{
+    ox-sizing: border-box;  
    margin: 0;
    padding: 0;
+   
 }
 
-/* Estilos generales deel cuerpo de la pagina*/
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background: rgb(178, 145, 164);
+    line-height: 1.5em;
+    background: rgb(217, 187, 156);
     color: rgb(0, 0, 0);
 }
-
-/*Estilo para el encabezado con degradado*/
 .site-header{
-    background: linear-gradient(90deg, #6a4074,#52488a);
-    color: rgb(0, 0, 0);
-    padding: 1rem;
-    text-align: center;
-}
-.subtitle{
-    opacity: 65;
-}
-
-.content{
-    display: flex; /* Colocar las targetas en al lado de la otra */
-    gap: 3rem; /* separar las tarjetas */
-    flex-wrap: wrap; /* permite que las targetas bajen si*/ 
-    justify-content: center;
+     color: rgba(65, 8, 8, 0.97);
     padding: 2rem;
-    
-} 
-
-.card{
-    background: #6873b0;
-    padding: 1.25rem;
-    border-radius: 22px;
-    box-shadow: 0.6px 18px rgba(118, 36, 100, 0.1);/* dsar profundidas a los lados*/
-    width: 300px;
+    text-align: center;
+    style="font-size: 100px;
+   
 }
+.foto1 { 
+   
+  height: 150px;
+  width:300px 100xp;
+ 
+                     
+}
+ 
+
+
+
+.card h1{
+margin-bottom: 1rem;
+    color: rgba(77, 59, 10, 0.884);
+}
+   
+
+
 
 .card h2{
-    margin-bottom: 0.5rem;
-    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    color: rgba(74, 56, 6, 0.918);
 }
 
 .card p{
     margin-bottom: 1rem;
-    color: burlywood;
+    color: rgb(0, 0, 0);
 }
 
 .btn{
     display: inline-block;
-    padding: 0.5rem 1rem;
-    background: #71578a;
-    border-radius: 8px;
-    color: rgb(0, 0, 0);
+    padding: 0.6rem 1.rem ;
+    background: #62524a89;
+    border-radius: 5px;
+    color: rgb(63, 13, 13);
     justify-content: center;
 }
 
@@ -65,8 +61,9 @@ body{
     text-align: center;
 }
 
+
 .site-footer{
     text-align: center;
     padding: 1rem;
-    color: rgb(10, 53, 90);
+    color: rgb(48, 63, 77);
 }
