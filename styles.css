@@ -1,59 +1,92 @@
-{
-    ox-sizing: border-box;  
-   margin: 0;
-   padding: 0;
-   
+*{
+    box-sizing: border-box;  
+   margin:0;
+  
+
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5em;
+    line-height: 2.5rem;
     background: rgb(217, 187, 156);
     color: rgb(0, 0, 0);
 }
+
 .site-header{
-     color: rgba(65, 8, 8, 0.97);
-    padding: 2rem;
+    background: linear-gradient(90deg, #c38c71,#6c232382);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
     text-align: center;
-    style="font-size: 100px;
-   
 }
+.subtitle{
+    opacity:100;
+}
+   
+.subtitle2 p { 
+ line-height: 0;
+ 
+
+}
+
 .foto1 { 
    
   height: 150px;
-  width:300px 100xp;
+  width:300px 100px;
+   
+   margin: 9px;
  
                      
 }
  
+.foto2 { 
+   
+  height: 150px;
+  width:300px 100px;
+   line-height: 30rem;
+   margin: 9px;
+ 
+                     
+}
+
+.content{
+    display: flex; /* Colocar las targetas en al lado de la otra */
+    
+    padding: 0rem;
+    
+} 
 
 
 
 .card h1{
-margin-bottom: 1rem;
+margin-bottom:1rem;
     color: rgba(77, 59, 10, 0.884);
+      font-size: 40px;
 }
    
 
 
 
-.card h2{
+.card2 h2{ 
     margin-bottom: 1rem;
-    color: rgba(74, 56, 6, 0.918);
+    color: rgba(91, 71, 17, 0.918);
+     font-size: 40px;
 }
 
 .card p{
     margin-bottom: 1rem;
     color: rgb(0, 0, 0);
+     line-height: 1.5rem;
+
 }
 
 .btn{
     display: inline-block;
     padding: 0.6rem 1.rem ;
-    background: #62524a89;
+    background: #9a8c8589;
     border-radius: 5px;
     color: rgb(63, 13, 13);
     justify-content: center;
+    line-height: 1rem
 }
 
 .card a{
@@ -64,6 +97,6 @@ margin-bottom: 1rem;
 
 .site-footer{
     text-align: center;
-    padding: 1rem;
-    color: rgb(48, 63, 77);
+   
+    color: rgb(60, 36, 2);
 }
