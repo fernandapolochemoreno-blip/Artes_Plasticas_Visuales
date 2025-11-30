@@ -1,6 +1,8 @@
 # Artes Platicas y visuales <!-- Este es el titulo de mi proyecto-->
-Mi proyecto va tratar sobre todo lo que es las ates platicasy visuales, su  deficion y ejemplos 
+Mi proyecto va tratar sobre todo lo que es las artes platicas y visuales, su  deficion y caracteristicas
 <!--Descripcion de mi proyecto-->
+# Autor <!--esta es el nombre de ka persona que creoo la pagina-->
+Yurlei Fernanda Poloche Moreno
 
 ## Contenidos del repositorio <!--Estos son los elementos de mi repositorio-->
 *index.html*- esta es nuestra pagina principal
