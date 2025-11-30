@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2.5rem;
+    line-height: 2.rem;
     background: rgb(217, 187, 156);
     color: rgb(0, 0, 0);
 }
@@ -18,85 +18,73 @@ body{
     padding: 1rem;
     text-align: center;
 }
-.subtitle{
-    opacity:100;
+.site-header h1 {
+    margin-bottom:2rem;
+    color: rgb(5, 4, 2);
+      font-size: 80px;
 }
-   
-.subtitle2 p { 
- line-height: 0;
- 
+.site-header p{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1rem;
+    font-size: 18px;
+}
 
-}
 
 .foto1 { 
-   
-  height: 150px;
-  width:300px 100px;
-   
-   margin: 9px;
+  width:500px ;
+    margin: 20px;
  
                      
 }
  
 .foto2 { 
-   
-  height: 150px;
-  width:300px 100px;
-   line-height: 30rem;
-   margin: 9px;
- 
-                     
+  width:300px;
+   margin: 20px;              
 }
-
-.content{
-    display: flex; /* Colocar las targetas en al lado de la otra */
-    
-    padding: 0rem;
-    
-} 
-
-
 
 .card h1{
 margin-bottom:1rem;
-    color: rgba(77, 59, 10, 0.884);
-      font-size: 40px;
+    color: rgb(96, 53, 8);
+      font-size: 45px;
 }
-   
-
-
-
 .card2 h2{ 
     margin-bottom: 1rem;
-    color: rgba(91, 71, 17, 0.918);
-     font-size: 40px;
+    color: rgb(74, 37, 7);
+     font-size: 45px;
 }
-
+.card2 p{ 
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+     line-height: 1.5rem;
+     font-size: 18px;
+} 
 .card p{
     margin-bottom: 1rem;
     color: rgb(0, 0, 0);
      line-height: 1.5rem;
+     font-size: 18px;
 
 }
-
 .btn{
     display: inline-block;
     padding: 0.6rem 1.rem ;
-    background: #9a8c8589;
+    background: #ca743639;
     border-radius: 5px;
-    color: rgb(63, 13, 13);
+    color: rgb(137, 8, 8);
     justify-content: center;
     line-height: 1rem
 }
 
-.card a{
-    display: flex;
-    text-align: center;
-}
-
-
 .site-footer{
     text-align: center;
-   
-    color: rgb(60, 36, 2);
+    margin: 12rem;
+    color: rgb(21, 51, 56);
+    line-height: 2rem;
+    font-size: 18px;
+}
+body {
+  background: radial-gradient(circle at 20% 30%, #e2eaa1 0%, transparent 50%),
+              radial-gradient(circle at 80% 60%, #904cef 0%, transparent 50%),
+              radial-gradient(circle at 50% 90%, #66da85 0%, transparent 50%);
 }
