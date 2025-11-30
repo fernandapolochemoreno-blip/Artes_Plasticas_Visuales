@@ -29,18 +29,32 @@ body{
     line-height: 1rem;
     font-size: 18px;
 }
-
+.site-header input[type="button1"] {
+     
+    padding: 0.5rem 0.5rem ;
+    background: #ddcdc2;
+    border-radius: 50px;
+    color: rgb(0, 0, 0); 
+    margin: 15px;
+    text-align: center;
+      display: right;
+  justify-content: right;
+  
+   
+    
+}
 
 .foto1 { 
   width:500px ;
     margin: 20px;
- 
+ border-radius: 50px;
                      
 }
  
 .foto2 { 
   width:300px;
-   margin: 20px;              
+   margin: 20px;  
+   border-radius: 50px;            
 }
 
 .card h1{
